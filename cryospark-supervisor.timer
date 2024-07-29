@@ -1,0 +1,9 @@
+[Unit]
+Description=Delay start of cryosparc-superviser.service
+
+[Timer]
+OnBootSec=4min
+
+
+[Install]
+WantedBy=timers.target
